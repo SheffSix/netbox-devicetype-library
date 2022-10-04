@@ -1,0 +1,75 @@
+---
+manufacturer: FS
+model: S5860-20SQ
+slug: s5860-20sq
+part_number: S5860-20SQ
+u_height: 1
+airflow: front-to-rear
+console-ports:
+  - name: Management
+    type: rj-45
+power-ports:
+  - name: PWR1
+    type: iec-60320-c14
+    maximum-draw: 85
+  - name: PWR2
+    type: iec-60320-c14
+    maximum-draw: 85
+interfaces:
+  - name: TenGigabitEthernet 0/1
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/2
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/3
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/4
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/5
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/6
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/7
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/8
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/9
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/10
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/11
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/12
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/13
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/14
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/15
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/16
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/17
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/18
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/19
+    type: 10gbase-x-sfpp
+  - name: TenGigabitEthernet 0/20
+    type: 10gbase-x-sfpp
+  - name: TFGigabitEthernet 0/21
+    type: 25gbase-x-sfp28
+  - name: TFGigabitEthernet 0/22
+    type: 25gbase-x-sfp28
+  - name: TFGigabitEthernet 0/23
+    type: 25gbase-x-sfp28
+  - name: TFGigabitEthernet 0/24
+    type: 25gbase-x-sfp28
+  - name: FortyGigabitEthernet 0/25
+    type: 40gbase-x-qsfpp
+  - name: FortyGigabitEthernet 0/26
+    type: 40gbase-x-qsfpp
+  - name: Mgmt 0
+    type: 1000base-t
+    mgmt_only: true
+  - name: vlan 1
+    type: virtual

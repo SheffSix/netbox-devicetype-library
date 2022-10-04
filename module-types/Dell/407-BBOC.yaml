@@ -1,0 +1,10 @@
+---
+manufacturer: Dell
+model: "SFP+ 10Gbe Module for N3000/S3100 Series"
+part_number: 407-BBOC
+
+interfaces:
+  - name: Te1/{module}/1
+    type: 10gbase-x-sfpp
+  - name: Te1/{module}/2
+    type: 10gbase-x-sfpp
